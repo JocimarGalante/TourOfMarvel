@@ -8,10 +8,10 @@
 .heroes li {
   position: relative;
   cursor: pointer;
-  background-color: #EEE;
+  background-color: #14C7D9;
   margin: .5em;
   padding: .3em 0;
-  height: 1.6em;
+  height: 38px;
   border-radius: 4px;
 }
 
@@ -38,14 +38,19 @@
   font-size: small;
   color: white;
   padding: 0.8em 0.7em 0 0.7em;
-  background-color:#405061;
+  background-color: #CC541D;
   line-height: 1em;
   position: relative;
   left: -1px;
   top: -4px;
-  height: 1.8em;
+  height: 36px;
   min-width: 16px;
   text-align: right;
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
+}
+h2{
+  position: relative;
+  text-align: center;
+  top: 15px;
 }
