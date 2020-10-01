@@ -1,2 +1,2 @@
-# TourOfHeroes
-Aplicativo e tutorial do Tour of Heroes
+# TourOfMarvel
+Aplicativo e tutorial da Torre de Heróis.
