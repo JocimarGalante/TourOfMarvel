@@ -1,69 +1,34 @@
-/* DashboardComponent's private CSS styles */
-[class*='col-'] {
-    float: left;
-    padding-right: 20px;
-    padding-bottom: 20px;
-  }
-  [class*='col-']:last-of-type {
-    padding-right: 0;
-  }
-  h3{
-    position: relative;
-    top: 15px;
-  }
-  a {
-    text-decoration: none;
-  }
-  *, *:after, *:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  h3 {
-    text-align: center;
-    margin-bottom: 0;
-  }
-  h4 {
-    position: relative;
-  }
-  .grid {
-    position: relative;
-    top: 30px;
-    margin: 0;
-  }
-  .col-1-4 {
-    width: 25%;
-  }
-  .module {
-    padding: 20px;
-    text-align: center;
-    color: #eee;
-    max-height: 120px;
-    min-width: 120px;
-    background-color: #04B580;
-    border-radius: 2px;
-  }
-  .module:hover {
-    background-color: #6CAB03;
-    cursor: pointer;
-    color: #eee;
-  }
-  .grid-pad {
-    padding: 10px 0;
-  }
-  .grid-pad > [class*='col-']:last-of-type {
-    padding-right: 20px;
-  }
-  @media (max-width: 600px) {
-    .module {
-      font-size: 10px;
-      max-height: 75px; }
-  }
-  @media (max-width: 1024px) {
-    .grid {
-      margin: 0;
-    }
-    .module {
-      min-width: 60px;
-    }
-  }
+[class*="col-"] {
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.container {
+  margin-top: 50px;
+}
+h3{
+  position: relative;
+  top: 15px;
+  text-align: center;
+  margin-bottom: 0;
+}
+h4 {
+  position: relative;
+}
+.card {
+  padding: 20px;
+  text-align: center;
+  color: #eee;
+  max-height: 120px;
+  min-width: 120px;
+  background-color: #04b580;
+  border-radius: 2px;
+  box-shadow: 4px 4px 33px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  /* cursor: pointer; */
+}
+.card:hover {
+  background-color: #6cab03;
+  cursor: pointer;
+  color: #eee;
+}
